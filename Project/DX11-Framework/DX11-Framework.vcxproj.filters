@@ -5,13 +5,161 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{f85434db-b009-428e-828a-6d46e402453f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Source Files\Debug">
+      <UniqueIdentifier>{0a027e15-2663-4add-b1c9-71a7c532acda}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Debug\Log">
+      <UniqueIdentifier>{c7035fc9-36fb-4dba-9854-8455e0900989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{a760e565-0e66-4d15-8b9d-08474434cb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11">
+      <UniqueIdentifier>{518e5233-ef54-4e36-b550-08a3c7c1b5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\Adapter">
+      <UniqueIdentifier>{a913eeb7-cabf-4ddc-87ea-a845f934c685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\Buffer">
+      <UniqueIdentifier>{a510847a-0c95-4376-a05d-a1306aaafaaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\DepthStincilView">
+      <UniqueIdentifier>{d3012d17-74af-4a18-bca1-d124999de685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\Device">
+      <UniqueIdentifier>{d85b8aec-28f4-45ae-9341-9b441f246e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\Factory">
+      <UniqueIdentifier>{fc30a38d-5e89-42cc-9b46-bbccae1437ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\InputLayout">
+      <UniqueIdentifier>{58d7082e-ab86-4166-9f26-8676f2b1a954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\PipelineStates">
+      <UniqueIdentifier>{3915e6db-a741-4bdd-b747-468e272c93d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\RenderTargetView">
+      <UniqueIdentifier>{f8e76d60-ea65-44f7-b02c-e080d962837e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\Shader">
+      <UniqueIdentifier>{a922de2b-f271-48a2-b0e6-000fbcefc4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\SwapChain">
+      <UniqueIdentifier>{2298f1b4-23a0-4016-b392-4ee2037c1931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\Texture2D">
+      <UniqueIdentifier>{4bf4c11c-81ae-4dcc-8386-990f7d730739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d0589bdb-f7fb-4a56-9291-079992bb522a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{cb9578e1-516b-4efb-8450-388516973f63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Adapter.cpp">
+      <Filter>Source Files\DX11\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Buffer.cpp">
+      <Filter>Source Files\DX11\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DepthStencilView.cpp">
+      <Filter>Source Files\DX11\DepthStincilView</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Device.cpp">
+      <Filter>Source Files\DX11\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Factory.cpp">
+      <Filter>Source Files\DX11\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputLayout.cpp">
+      <Filter>Source Files\DX11\InputLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderTargetView.cpp">
+      <Filter>Source Files\DX11\RenderTargetView</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Source Files\DX11\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SwapChain.cpp">
+      <Filter>Source Files\DX11\SwapChain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture2D.cpp">
+      <Filter>Source Files\DX11\Texture2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Mesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\DX11PCH.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Log.hpp">
+      <Filter>Source Files\Debug\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Renderer.hpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Adapter.hpp">
+      <Filter>Source Files\DX11\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Buffer.hpp">
+      <Filter>Source Files\DX11\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DepthStencilView.hpp">
+      <Filter>Source Files\DX11\DepthStincilView</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Device.hpp">
+      <Filter>Source Files\DX11\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Factory.hpp">
+      <Filter>Source Files\DX11\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\InputLayout.hpp">
+      <Filter>Source Files\DX11\InputLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PipelineStates.hpp">
+      <Filter>Source Files\DX11\PipelineStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RenderTargetView.hpp">
+      <Filter>Source Files\DX11\RenderTargetView</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Shader.hpp">
+      <Filter>Source Files\DX11\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SwapChain.hpp">
+      <Filter>Source Files\DX11\SwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Texture2D.hpp">
+      <Filter>Source Files\DX11\Texture2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Mesh.hpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Resource\Shaders\Simple.ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resource\Shaders\Simple.vs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
