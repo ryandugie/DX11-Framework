@@ -22,14 +22,17 @@
 #include <assimp/postprocess.h>
 #pragma warning(pop)
 
-namespace DX11 {
+namespace DX11 
+{
 
-    struct Vertex {
+    struct Vertex 
+    {
         DirectX::XMVECTOR position = DirectX::XMVECTOR();
         DirectX::XMVECTOR  normal = DirectX::XMVECTOR();
     };
 
-    class Mesh {
+    class Mesh 
+    {
     public:
         ~Mesh();
         Mesh() = default;

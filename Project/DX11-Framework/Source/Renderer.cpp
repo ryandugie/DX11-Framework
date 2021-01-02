@@ -397,5 +397,6 @@ void DX11::Renderer::Present()
     DX11::DeviceContext context = mDevice.Context();
     context->OMSetRenderTargets(1, renderTargetViews, nullptr);
     mSwapChain->Present(mVSync, 0);
-    context->ClearRenderTargetView(renderTargetViews[0], DirectX::Colors::DarkGray);
+    const DirectX::XMVECTORF32 actuallyDarkGray = { { { 0.1f, 0.1f, 0.1f, 1.000000000f } } };
+    context->ClearRenderTargetView(renderTargetViews[0], actuallyDarkGray);
 }
